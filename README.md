@@ -1,7 +1,7 @@
 # Messages
 
 ## Clone
-`git clone https://github.com/mhidou/messages`
+`git clone https://github.com/mhidou/messages && cd messages`
 
 ## Install dependencies
 `meteor npm install`
