@@ -1,0 +1,15 @@
+<template name="Message">
+  {{#if myMessage}}
+  <div class="Message right">
+    <div class="content">
+      {{content}} <button class="delete">&times;</button>
+    </div>
+  </div>
+  {{else}}
+  <div class="Message">
+    <div class="content">
+      {{content}}
+    </div>
+  </div>
+  {{/if}}
+</template>
